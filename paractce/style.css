@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+body{
+    background-color: rgba(247, 172, 137, 0.856);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.card{
+    background-color: lightgray;
+    width: 300px;
+    height: 590px;
+    margin: 10px;
+    border-radius:15px;
+    
+}
+
+.card-img {
+    
+    height: 300px;
+    margin-bottom: 25px;
+    background-size: cover;
+    border-radius:15px 15px 15px 15px ;
+}
+
+.car-1 {
+    background-image: url(paul-gaudriault-a-QH9MAAVNI-unsplash-removebg-preview.png);}
+
+
+.car-2 {
+    background-image: url(usama-akram-kP6knT7tjn4-unsplash-removebg-preview.png);}
+
+.car-3{
+    background-image: url(muhammad-sulyman-S6QxcHThViw-unsplash-removebg-preview.png);
+}
+
+h1{
+    color: red;
+
+    
+    text-align: center;
+    text-shadow: 15px px red;
+    font-family: sans-serif;
+    
+    
+    
+    
+    
+    
+}
+
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    
+}
+
+h2{
+    color: red;
+    text-decoration: line-through;
+}
+
+p{
+
+ display: inline;
+ color: white;
+text-align: center;
+
+font-display: auto;
+}
+
+a{
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    
+    
+
+
+}
+
+.card:hover {
+    background-color: pink;
+    color: white
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s case;
+}
